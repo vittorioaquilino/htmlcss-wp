@@ -183,6 +183,10 @@ img {
 }
 
 /* FOOTER */
-.hearts{
+footer{
     text-align: center;
+}
+
+#hearts{
+   color: red;
 }
