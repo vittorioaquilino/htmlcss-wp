@@ -10,14 +10,14 @@
     border: 1px solid red;
 }
 
-.debug .content-top,
+/* .debug .content-top,
 .debug .col {
     background-color: lightskyblue;
 }
 
 .debug .content {
     background-color: blue;
-}
+} */
 
 /* COMMON */
 html {
@@ -35,7 +35,7 @@ img {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     max-width: 1400px;
 }
@@ -94,6 +94,16 @@ img {
     background-color: rgba(0, 0, 0, .2);
 }
 
+/* OVERFLOW */
+/* Prova overflow */
+.text-container {
+    width: 50%;
+    height: 200px;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+/* banner */
 .banner {
     position: relative;
     height: 400px;
@@ -118,23 +128,28 @@ img {
     color: white;
 }
 
+/* content */
 .content {
     padding-bottom: 2em;
 }
 
-.content-top {
-    height: 60px;
+.content-top span{
+    color: grey;
 }
 
+/* content bottom */
 
+.box-images {
+    border-radius: 2em;
+}
 
-.col-side {
+.col-side:first-child {
     width: 25%;
+    /* height: 150px; */
+    border-radius: 2em;
 }
 
 .col-center {
-    /* width: calc(50% - 20px);
-    margin: 0 10px; */
     width: 46%;
     margin: 0 2%;
 }
