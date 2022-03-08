@@ -46,7 +46,6 @@ img {
     clear: both;
 }
 
-
 .mb-1 {
     margin-bottom: 1em;
 }
@@ -55,6 +54,9 @@ img {
     margin-bottom: 2em;
 }
 
+.text{
+    color: gray;
+}
 /* HEADER */
 
 .logo {
@@ -125,10 +127,6 @@ img {
     font-weight: 700;
 }
 
-.content-top span{
-    color: grey;
-}
-
 /* content bottom */
 .content-bottom{
     overflow: hidden;
@@ -177,9 +175,6 @@ img {
 
 .col h3{
     margin-bottom: 1em;
-}
-.col p{
-    color: grey;
 }
 
 /* FOOTER */
